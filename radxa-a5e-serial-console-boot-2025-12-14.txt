@@ -1,0 +1,387 @@
+[166]periph0 has been enabled
+[170]set pll end
+[172]PL gpio voltage : 3.3V
+[176]PMU: AXP2202
+[181]PMU: AXP1530
+[186]power mode:33, sys_vol:920
+[191]vaild para:1  select dram para0
+[195]dram_para[0]:0x4b0
+[197]dram_para[1]:0x8
+[199]dram_para[2]:0x7070707
+[202]dram_para[3]:0xd0d0d0d
+[206]dram_para[4]:0xe0e
+[208]dram_para[5]:0x84848484
+[211]dram_para[6]:0x310a
+[214]dram_para[7]:0x10001000
+[217]dram_para[8]:0x0
+[219]dram_para[9]:0x34
+[222]dram_para[10]:0x1b
+[224]dram_para[11]:0x33
+[227]dram_para[12]:0x3
+[229]dram_para[13]:0x0
+[232]dram_para[14]:0x0
+[234]dram_para[15]:0x4
+[237]dram_para[16]:0x72
+[239]dram_para[17]:0x0
+[242]dram_para[18]:0xe
+[244]dram_para[19]:0x0
+[247]dram_para[20]:0x0
+[249]dram_para[21]:0x26
+[252]dram_para[22]:0x80808080
+[255]dram_para[23]:0x6060606
+[258]dram_para[24]:0x1f0b0503
+[261]dram_para[25]:0x0
+[264]dram_para[26]:0x3a000000
+[267]dram_para[27]:0x802f3333
+[270]dram_para[28]:0xc0c0bbbf
+[274]dram_para[29]:0x35352f31
+[277]dram_para[30]:0xc64
+[280]dram_para[31]:0x48484848
+[283]board init ok
+[285]rtc[3] value = 0xa301
+[308]enable_jtag
+[310]card no is 0
+[312]sdcard 0 line count 4
+[315][mmc]: mmc driver ver 2023-03-24 16:23
+[325][mmc]: Wrong media type 0x0
+[329][mmc]: ***Try SD card 0***
+[339][mmc]: HSSDR52/SDR25 4 bit
+[343][mmc]: 50000000 Hz
+[345][mmc]: 15262 MB
+[347][mmc]: ***SD/MMC 0 init OK!!!***
+[359]DRAM BOOT DRIVE INFO: V0.67
+[363]DRAM_VCC set to 1100 mv
+[489]DRAM retraining ten
+[507][AUTO DEBUG]32bit,2 ranks training success!
+[537]Soft Training Version: T2.0
+[7546][SOFT TRAINING] CLK=1200M Stable memtest pass
+[7551]DRAM CLK =1200 MHZ
+[7554]DRAM Type =8 (3:DDR3,4:DDR4,7:LPDDR3,8:LPDDR4)
+[7565]phy_dfs_clk1 = 800M
+[7954]phy_dfs_clk2 = 400M
+[8042]phy_dfs_clk3 = 150M
+[8156]phy_dfs_clk0 = 1200M
+[8159]DRAM MDFS VERSION INFO: V0.660
+[8163]DRAM MDFS time =38892 ns
+[8167]DRAM SIZE =4096 MBytes, para1 = 310a, para2 = 10001000, tpr13 = 6465
+[8195]DRAM simple test OK.
+[8197]dram size =4096
+[8204]nsi init 2023-2-23
+[8209]error:bad magic.
+[8329]Loading boot-pkg Succeed(index=1).
+[8333]Entry_name        = u-boot
+[8342]Entry_name        = monitor
+[8346]Entry_name        = scp
+[8350]Entry_name        = dtb
+[8353]mmc not para
+[8355]Jump to second Boot.
+NOTICE:  BL31: OP-TEE 32bit detected
+NOTICE:  BL31: U-BOOT 32bit detected
+NOTICE:  BL31: v2.5(debug):a6e1826c1
+NOTICE:  BL31: Built : 10:10:43, Mar 28 2025
+NOTICE:  BL31: No DTB found.
+nsi init ok 2022-11-08
+ERROR:   Error initializing runtime service opteed_fast
+
+
+U-Boot 2018.07-10-boot-aw2501-g56bb8c6a2ea-dirty (Sep 16 2025 - 08:32:16 +0000) Allwinner Technology
+
+[08.506]CPU:   Allwinner Family
+[08.509]Model: Radxa Cubie A5E
+I2C:   ready
+[08.521]DRAM:  4 GiB
+[08.525]Relocation Offset is: 75e60000
+[08.587]secure enable bit: 0
+[08.590]PMU: AXP2202
+[08.619][AXP2202] comm status : 0x0 = 0x20, 0x1 = 0x90
+[08.624][AXP2202] onoff status: 0x20 = 0x0, 0x21 = 0x0
+[08.629][AXP2202] reboot/charge status: 0xf0 = 0x1
+[08.634]PMU: AXP1530
+[08.636]CPU=1008 MHz,PLL6=600 Mhz,AHB=200 Mhz, APB1=100Mhz  MBus=600Mhz
+[08.643]gic: sec monitor mode
+SPI ALL:   ready
+[08.648]flash init start
+[08.650]workmode = 0,storage type = 1
+[08.654][mmc]: mmc driver ver uboot2018:2024-10-18 9:01:00 -- uboot2018:2025-03-28 10:03:00
+[08.662][mmc]: get sdc_type fail and use default host:tm1.
+[08.668][mmc]: can't find node "mmc0",will add new node
+[08.673][mmc]: fdt err returned <no error>
+[08.676][mmc]: Using default timing para
+[08.680][mmc]: SUNXI SDMMC Controller Version:0x50500
+[08.697][mmc]: card_caps:0x3000000a
+[08.701][mmc]: host_caps:0x3000003f
+[08.704]sunxi flash init ok
+get value error
+[08.713]Loading Environment from SUNXI_FLASH... OK
+[08.719]No ethernet found.
+[08.722]Failed to found available display route
+[08.726]Get sunxi drm device fail!
+[08.730]the secure storage item0 copy0 magic is bad
+[08.735]the secure storage item0 copy1 magic is bad
+[08.739]usb burn from boot
+delay time 0
+weak:otg_phy_config
+[08.750]usb prepare ok
+[09.053]overtime
+[09.058]do_burn_from_boot usb : no usb exist
+cann't get the boot_base from the env
+[09.086]update part info
+[09.091]update bootcmd
+pcie link up success
+PCIe speed of Gen2
+[09.401]change working_fdt 0xbbe0fe18 to 0xbbddfe18
+get value error
+[09.407][mmc]: get sunxi-mmc0 string failed
+[09.411]The storage not support sample function
+[09.417]## error: update_fdt_dram_para_from_bootpara : FDT_ERR_NOTFOUND
+[09.423]Invalid phandle:0
+[09.425]only find 1073741818 phandle, format:endpoints=<&disp0_out_tcon0 &tcon0_out_rgb0>;
+[09.434]Failed to found available display route
+[09.438]chip id : 0x0000ff10 0x00004824 0x0000c31c 0x0000225a
+[09.444]chip id : 0x0000ff10 0x00004824 0x0000c31c 0x0000225a
+[09.449]Could not find nodeoffset for used ext pmu:reg-axp1530
+[09.455]update dts
+curr_device:0
+Device: SUNXI SD/MMC
+Manufacturer ID: 1b
+OEM: 534d
+Name: 00000
+Bus Speed: 50000000
+Mode : SD High Speed (50MHz)
+Rd Block Len: 512
+SD version 3.0
+High Capacity: Yes
+Capacity: 14.9 GiB
+Bus Width: 4-bit
+Erase Group Size: 512 Bytes
+Hit any key to stop autoboot:  0
+starting USB...
+USB0:   start sunxi  USB-DRD...
+config usb clk ok
+sunxi USB-DRD init ok...
+USB EHCI 1.00
+scanning bus 0 for devices... 1 USB Device(s) found
+USB1:   start sunxi  USB1-Host...
+config usb clk ok
+sunxi USB1-Host init ok...
+USB EHCI 1.00
+scanning bus 1 for devices... 1 USB Device(s) found
+       scanning usb for storage devices... 0 Storage Device(s) found
+
+Device 0: device type unknown
+... is now current device
+** Bad device usb 0 **
+** Bad device usb 0 **
+mmc0 is current device
+Scanning mmc 0:2...
+Scanning mmc 0:3...
+Found /boot/extlinux/extlinux.conf
+Retrieving file: /boot/extlinux/extlinux.conf
+2415 bytes read in 2 ms (1.2 MiB/s)
+U-Boot menu
+1:      Debian GNU/Linux 11 (bullseye) 5.15.147-12-aw2501
+2:      Debian GNU/Linux 11 (bullseye) 5.15.147-12-aw2501 (rescue target)
+3:      Debian GNU/Linux 11 (bullseye) 5.15.147-10-aw2501
+4:      Debian GNU/Linux 11 (bullseye) 5.15.147-10-aw2501 (rescue target)
+Enter choice: 1:        Debian GNU/Linux 11 (bullseye) 5.15.147-12-aw2501
+Retrieving file: /boot/initrd.img-5.15.147-12-aw2501
+13274803 bytes read in 552 ms (22.9 MiB/s)
+Retrieving file: /boot/vmlinuz-5.15.147-12-aw2501
+20658688 bytes read in 858 ms (23 MiB/s)
+append: root=UUID=02c08ba1-a8f8-4838-82e5-f837464defd4 console=ttyAS0,115200n8 rootwait clk_ignore_unused mac_addr=08:ef:6c:df:78:b2 mac1_addr=08:ef:6c:df:78:b3 quiet splash logle
+vel=4 rw earlycon consoleblank=0 console=tty1 coherent_pool=2M irqchip.gicv3_pseudo_nmi=0 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1 kasan=off
+Retrieving file: /usr/lib/linux-image-5.15.147-12-aw2501/allwinner/sun55i-a527-cubie-a5e.dtb
+159664 bytes read in 25 ms (6.1 MiB/s)
+get value error
+[15.233]The storage not support sample function
+[15.319]Invalid phandle:0
+[15.321]only find 1073741818 phandle, format:endpoints=<&disp0_out_tcon0 &tcon0_out_rgb0>;
+[15.329]Failed to found available display route
+[15.343]update dts
+stop sunxi USB-DRD ok...
+stop sunxi USB1-Host ok...
+   Loading Ramdisk to 49357000, end 49fffeb3 ... OK
+[15.380]Starting kernel ...
+
+[15.382]total: 15382 ms
+
+[15.385][mmc]: MMC Device 2 not found
+[15.388][mmc]: mmc 2 not find, so not exit
+NOTICE:  [SCP] :wait arisc ready....
+NOTICE:  [SCP] :arisc version: [364dad9bcd34230512f015ab5c6cefa12bd238d0]
+NOTICE:  [SCP] :arisc startup ready
+NOTICE:  [SCP] :arisc startup notify message feedback
+NOTICE:  [SCP] :sunxi-arisc driver is starting
+NOTICE:  BL3-1: Next image address = 0x40200000
+NOTICE:  BL3-1: Next image spsr = 0x3c5
+[    0.070880] AW BSP version: 66c70ad0ec, 2025-09-27 11:03:24, RadxaOS SDK
+[    0.138083] sunxi:twi_sunxi-2502000.twi0:[ERR]: pinctrl_get failed
+[    0.138103] sunxi:twi_sunxi-2502000.twi0:[ERR]: TWI failed to get resource
+[    0.138916] sunxi:axp2101-6-0036:[ERR]: Unable to match OF ID
+[    0.310493] sunxi:ccu_ddr:[ERR]: dram_clk:1200
+[    0.310519] sunxi:ccu_ddr:[ERR]: dram_div:0x1f0b0503
+[    0.311149] sunxi:pin-2000000.pinctrl:[ERR]: unknown pin
+[    0.311158] sunxi:pin-2000000.pinctrl:[ERR]: unknown pin
+[    0.311248] sunxi:pin-2000000.pinctrl:[ERR]: unknown pin
+[    0.311256] sunxi:pin-2000000.pinctrl:[ERR]: unknown pin
+[    0.311768] sunxi:sunxi_uart-uart0:[ERR]: uart0 error to get fifo size property
+[    0.386372] NSI_PMU 2020000.nsi-controller: no topo process for clk path type:0
+[    0.394591] no topo process for topo type:0
+[    0.402417] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: Could not get mbus clock
+[    0.410542] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: Could not get store clock
+[    0.418749] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: Could not get msi_lite clock
+[    0.456637] sunxi:sunxi_mmc_host-4020000.sdmmc:[ERR]: Could not get mbus clock
+[    0.464884] sunxi:sunxi_mmc_host-4020000.sdmmc:[ERR]: Could not get store clock
+[    0.473214] sunxi:sunxi_mmc_host-4020000.sdmmc:[ERR]: Could not get msi_lite clock
+[    0.474002] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.491006] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.500304] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.509669] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.518960] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.528254] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.537469] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: Could not get mbus clock
+[    0.537922] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.554073] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: Could not get store clock
+[    0.554882] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.562311] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: Could not get msi_lite clock
+[    0.580042] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.589351] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.598672] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.607964] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.617326] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.626628] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.635042] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 52, RTO !!
+[    0.644192] [drm:sunxi_drm_bind] *ERROR* none mode found init_connecting
+[    0.644380] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 52, RTO !!
+[    0.651730] [drm:sunxi_drm_get_logo_info] *ERROR* init connecting not found sunxi_drm_get_logo_info
+[    0.660207] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.679668] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.680246] sunxi:sunxi_sidefuse init success!
+[    0.681015] inno-combphy 4f00000.phy: get select3v3-supply fail
+[    0.700656] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.709970] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.719275] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.728572] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.737357] sunxi:sunxi_mmc_host-4020000.sdmmc:[ERR]: sdc0 :the host don't support tuning in kernel
+[    0.737873] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.756780] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: smc 1 p2 err, cmd 1, RTO !!
+[    0.765283] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: retry:set phase failed or over retry times
+[    0.775169] sunxi:sunxi_mmc_host-4022000.sdmmc:[ERR]: retry:give up
+[    1.176026] sunxi-rc-recv 2005000.irrx: sunxi_irrx_resource_get: get ir protocol failed
+[    1.206014] sunxi:axp2202_battery:[ERR]: axp2202-battery device is not configed
+[    1.225348] sunxi-rfkill soc@3000000:rfkill: get gpio chip_en failed
+[    1.234770] [NAND][NE] Not found valid nand node on dts
+[    1.314210] sunxi:pcie-rc-4800000.pcie:[ERR]: Speed change timeout
+[    2.396908] cma: cma_alloc: reserved: alloc failed, req-size: 512 pages, ret: -12
+[    2.593919] cma: cma_alloc: reserved: alloc failed, req-size: 512 pages, ret: -12
+[    2.977341] hid-generic 0003:046D:C52B.0003: device has no listeners, quitting
+SELinux:  Could not open policy file <= /etc/selinux/targeted/policy/policy.33:  No such file or directory
+[  OK  ] Finished Tell Plymouth To Write Out Runtime Data.
+[  OK  ] Started Journal Service.
+         Starting Flush Journal to Persistent Storage...
+[  OK  ] Finished Coldplug All udev Devices.
+[  OK  ] Started Rule-based Manager for Device Events and Files.
+[  OK  ] Finished Flush Journal to Persistent Storage.
+         Starting Show Plymouth Boot Screen...
+         Starting Create Volatile Files and Directories...
+[  OK  ] Started Show Plymouth Boot Screen.
+[  OK  ] Started Forward Password R…s to Plymouth Directory Watch.
+[  OK  ] Reached target Local Encrypted Volumes.
+[  OK  ] Finished Create Volatile Files and Directories.
+[  OK  ] Started Entropy Daemon based on the HAVEGE algorithm.
+         Starting Network Name Resolution...
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Finished Update UTMP about System Boot/Shutdown.
+[   17.764465] sunxi:VE:[ERR]: 409 map_max_ve_freq_by_vf_sun55iw3(): can not match dvfs[0x1] and vol[900 mv], use default ve_freq
+[  OK  ] Found device /dev/ttyAS0.
+[  OK  ] Reached target Hardware activated USB gadget.
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started CUPS Scheduler.
+[  OK  ] Started local-apt-repository.path.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target Paths.
+[  OK  ] Reached target System Time Set.
+[  OK  ] Reached target System Time Synchronized.
+[  OK  ] Started Daily apt download activities.
+[  OK  ] Started Daily apt upgrade and clean activit[   17.934734] sunxipart: failed to parse sunxi_gpt!
+ies.
+[  OK  ] Started Periodic ext4 Onliâ¦ata Check for All Filesystems.
+[  OK  ] Started Discard unused blocks once a week.
+[  OK  ] Started Refresh fwupd metadata regularly.
+[  OK  ] Started Daily man-db regeneration.
+[  OK  ] Reached target Timers.
+[  OK  ] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Listening on CUPS Scheduler.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+         Starting Avahi mDNS/DNS-SD Stack...
+[  OK  ] Started D-Bus System Message Bus.
+         Starting Network Manager...
+         Starting Remove Stale Onli…t4 Metadata Check Snapshots...
+         Starting Initialize hardware monitoring sensors...
+[  OK  ] Started rsetup configuration service.
+         Starting RealtimeKit Scheduling Policy Service...
+         Starting User Login Management...
+         Starting WPA supplicant...
+         Starting Linux zramswap setup...
+[  OK  ] Listening on Load/Save RF …itch Status /dev/rfkill Watch.
+[   18.744478] sunxi:sound-codec-hdmi:[ERR]: 442 sunxi_codec_dev_probe(): register codec-hdmi success
+[   18.755587] sunxi:sound-mach:[ERR]: 514 simple_parse_of(): simple_dai_link_of failed
+[  OK  ] Finished Load/Save Random Seed.
+[   18.788737] debugfs: Directory '7114000.i2s2_plat' with parent 'sndhdmi' already present!
+[  OK  ] Finished Initialize hardware monitoring sensors.
+         Starting Save/[   18.890422] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 52, RTO !!
+[   18.902751] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 52, RTO !!
+
+[   18.963803] axp2202-bldo1: Restricting voltage, 3300000-1800000uV
+[   18.970659] sunxi-rfkill soc@3000000:rfkill: wlan power[0] (axp2202-bldo1) set voltage failed
+[   18.980223] sunxi-rfkill soc@3000000:rfkill: set power failed
+[  OK  ] Finished Remove Stale Onliâ¦ext4 Metadata Check Snapshots.
+[   19.036725] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 7, RTO !!
+[   19.045262] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 7, RTO !!
+[   19.053764] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 7, RTO !!
+[   19.062289] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 7, RTO !!
+[   19.098458] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 52, RTO !!
+[   19.107779] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: smc 2 p1 err, cmd 52, RTO !!
+[   19.149391] sunxi:sunxi_mmc_host-4021000.sdmmc:[ERR]: wait dma hold bit clear timeout
+[  OK  ] Started Network Name Resolution.
+[  OK  ] Created slice system-systemd\x2dfsck.slice.
+[  OK  ] Listening on fsck to fsckd communication Socket.
+         Starting Fi[   20.121602] aicbsp: sdio_err:<aicwf_sdio_bus_pwrctl,1404>: bus down
+le System Check…/dev/disk/by-uuid/4E4E-2137...
+[  OK  ] Started File System Check Daemon to report status.
+[  OK  ] Finished Linux zramswap setup.
+[  OK  ] Started User Login Management.
+[  OK  ] Started RealtimeKit Scheduling Policy Service.
+[  OK  ] Started Avahi mDNS/DNS-SD Stack.
+[  OK  ] Started WPA supplicant.
+[  OK  ] Finished File System Check…n /dev/disk/by-uuid/4E4E-2137.
+         Mounting /config...
+[  OK  ] Started Network Manager.
+[  OK  ] Reached target Network.
+[  OK  ] Reached target Radxa USB OTG services.
+         Starting CUPS Scheduler...
+         Starting dnsmasq - A light…DHCP and caching DNS server...
+         Starting OpenBSD Secure Shell server...
+         Starting Permit User Sessions...
+[  OK  ] Finished Save/Restore Sound Card State.
+[  OK  ] Mounted /config.
+[  OK  ] Reached target Sound Card.
+[  OK  ] Finished Permit User Sessions.
+         Starting Hold until boot process finishes up...
+         Starting Terminate Plymouth Boot Screen...
+[  OK  ] Started Simple Desktop Display Manager.
+         Starting HDMI toggle (1280… 1920x1080) once after boot...
+         Starting Hostname Service...
+[   21.221203] ieee80211 phy0:
+[   21.221203] *******************************************************
+[   21.221203] ** CAUTION: USING PERMISSIVE CUSTOM REGULATORY RULES **
+[   21.221203] *******************************************************
+[   26.089602] dma dma1chan0: The timeout func is not suportted or chan->private is NULL, timeout mode not used
+
+Debian GNU/Linux 11 radxa-cubie-a5e ttyAS0
+
+radxa-cubie-a5e login:

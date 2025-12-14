@@ -1,0 +1,50 @@
+U-Boot SPL 2026.01-rc4_armbian-2026.01-rc4-Sff80-P0000-He0b4-V52aa-Bbf55-R448a (Dec 11 2025 - 01:32:55 +0000)
+DRAM: 4096 MiB
+Trying to boot from MMC1
+NOTICE:  BL31: v2.12.0(debug):armbian
+NOTICE:  BL31: Built : 01:32:34, Dec 11 2025
+NOTICE:  BL31: Detected Allwinner A523 SoC (1890)
+NOTICE:  BL31: Found U-Boot DTB at 0xa0ab9f8, model: Radxa Cubie A5E
+INFO:    GICv3 without legacy support detected.
+INFO:    ARM GICv3 driver initialized in EL3
+INFO:    Maximum SPI INTID supported: 287
+INFO:    Configuring SPC Controller
+INFO:    BL31: Platform setup done
+INFO:    BL31: Initializing runtime services
+INFO:    BL31: cortex_a55: CPU workaround for erratum 1530923 was applied
+INFO:    PSCI: Suspend is unavailable
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0x4a000000
+INFO:    SPSR = 0x3c9
+ns16550_serial serial@2500000: pinctrl_select_state_full: uclass_get_device_by_phandle_id: err=-19
+
+
+U-Boot 2026.01-rc4_armbian-2026.01-rc4-Sff80-P0000-He0b4-V52aa-Bbf55-R448a (Dec 11 2025 - 01:32:55 +0000) Allwinner Technology
+
+CPU:   Allwinner A523 (SUN55I)
+Model: Radxa Cubie A5E
+DRAM:  4 GiB
+sunxi_set_gate: (CLK#35) unhandled
+Core:  77 devices, 22 uclasses, devicetree: separate
+WDT:   Not starting watchdog@2050000
+MMC:   mmc@4020000: 0
+Loading Environment from FAT... Unable to read "uboot.env" from mmc0:1...
+In:    serial@2500000
+Out:   serial@2500000
+Err:   serial@2500000
+Net:   eth0: ethernet@4500000
+starting USB...
+sun4i_usb_phy phy@4100400: External vbus detected, not enabling our own vbus
+USB EHCI 1.00
+USB OHCI 1.0
+USB EHCI 1.00
+USB OHCI 1.0
+Bus usb@4101000: 1 USB Device(s) found
+Bus usb@4101400: 1 USB Device(s) found
+Welcome to Armbian_community!
+
+Documentation: https://docs.armbian.com | Community support: https://community.armbian.com/
+
+IP address:  Network connection timeout!
+
+Create root password:
