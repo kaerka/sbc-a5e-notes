@@ -314,10 +314,23 @@ root@radxa-cubie-a5e:~#
 
 ## Final Verdict
 
-> The Radxa Cubie A5E is not a bad board — it is an **early-upstream board**.
->  
-> Today, its value lies in **control-plane roles and experimentation**, not in camera or storage-heavy deployments.
->  
-> When sun55i PCIe and CSI land upstream, this board will become far more compelling.
+> The Radxa Cubie A5E is not a bad board — but it is an **early-upstream board**.
+> I've hit a nearly impossible wall with this A5E... one I could probably solve, but it would be weeks or months of work, and it just isn't worth it.  
+> So while it has nearly perfect hardware to become a camera controller, it will get relegated to a lesser role for now.
+Hardware:
+1. 8 core arm64 processor
+2. 4gb ram
+3. sdcard + NVMe SSD
+4. built-in wifi
+5. CSI MIPI interface (camera high speed interface) - but no support for the Radxa 4k camera yet
+6. Built in 4k video decoder/encoder
+7. Small size and runs on 5volt 3amp
+8. Working serial console access - with caveats (doesn't have same chipset as other radxa boards, slower console)
+9. Dual 1GbE ethernet, and one supports PoE (power over ethernet)
 
-Until then, architectural reassignment is the correct move.
+> So... in short, a cool board, but nearly useless for the primary functions I'd use it for.  So now, it probably will live on as one of these:
+1. Spectra controller, using the radxa messy image with modifications (especially to remove much of the extra junk services)
+2. Maybe a network routing device, using the two ethernet interfaces + wifi
+3. Possibly as a GPIO controller of some sort, though noting it has a weird gpio chipset
+
+> This wasn't meant to be a review of this board... but as I can't use it right now for it's primary function, well, that's what it's become.
