@@ -277,6 +277,20 @@ root@radxa-cubie-a5e:~#
 ```
 
 ---
+## Power Usage
+Measured Peak Power (desktop booted, wifi only, no ethernet):
+- Peak:
+1.228 A @ 5.143 V
+≈ 6.32 W peak
+
+- Idle:
+0.567 A @ 5.132 V
+≈ 2.91 W idle
+
+> Significantly lower than Jetson Nano under comparable control workloads
+> Makes board attractive for low-power GPIO-centric roles
+
+---
 
 ## Practical Conclusions
 
